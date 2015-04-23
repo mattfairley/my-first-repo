@@ -5,3 +5,28 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body{
+	background: lightblue;
+}
+
+.innerWrapper{
+	max-width: 800px;
+	margin: 0 auto;
+}
+	.main{
+		.fireSVG{
+			width:18%;
+		}
+		.countdown{
+			background: #E6B06E;
+			border-radius: 8px;
+			ul{
+				list-style: none;
+				padding: 0;
+				li{
+					float: left;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}

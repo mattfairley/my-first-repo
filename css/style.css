@@ -130,3 +130,22 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+body {
+  background: lightblue; }
+
+.innerWrapper {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.main .fireSVG {
+  width: 18%; }
+.main .countdown {
+  background: #E6B06E;
+  border-radius: 8px; }
+  .main .countdown ul {
+    list-style: none;
+    padding: 0; }
+    .main .countdown ul li {
+      float: left;
+      text-transform: uppercase; }
