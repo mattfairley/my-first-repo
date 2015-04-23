@@ -132,20 +132,55 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 body {
-  background: lightblue; }
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif; }
 
 .innerWrapper {
   max-width: 800px;
   margin: 0 auto; }
 
 .main .fireSVG {
-  width: 18%; }
+  width: 16%;
+  margin: 20% 42%; }
 .main .countdown {
-  background: #E6B06E;
-  border-radius: 8px; }
+  background: rgba(230, 176, 110, 0.8);
+  padding: 25px 10px;
+  border-radius: 8px;
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 30%; }
   .main .countdown ul {
     list-style: none;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
     .main .countdown ul li {
       float: left;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      width: 25%;
+      text-align: center;
+      letter-spacing: 1.2px; }
+  .main .countdown .labels {
+    color: #fff; }
+    .main .countdown .labels span {
+      color: #79783D;
+      display: block;
+      margin: 0;
+      font-size: 50px;
+      font-weight: bold; }
+
+.credits {
+  color: #E07034;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10%; }
+  .credits .house {
+    float: left; }
+    .credits .house p {
+      margin: 0; }
+  .credits .outsource {
+    float: right;
+    text-align: right; }
+    .credits .outsource p {
+      margin: 0; }
