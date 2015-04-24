@@ -6,20 +6,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body{
-	background-image: url('../assets/background.jpg');
+	background-image: url('../assets/unsplashtrees.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	font-family:'Montserrat', sans-serif;
 }
 
 .innerWrapper{
-	max-width: 800px;
+	max-width: 700px;
 	margin: 0 auto;
 }
 	.main{
 		.fireSVG{
-			width:14%;
-			margin: 20% 43%;
+			width:16%;
+			margin: 20% 42%;
 		}
 		.countdown{
 			background: rgba(230,176,110, 0.8);
@@ -55,20 +55,23 @@ body{
 
 	.credits{
 		color: #E07034;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 1.5;
 		margin-bottom: 10%;
-		.house{
+		.pizza{
+			width: 33%;
 			float: left;
 			p{
 				margin: 0;
 			}
 		}
+		.hyLogo{
+			text-align: center;
+			color: white;
+			font-size: 50px;
+		}
 		.outsource{
 			float: right;
 			text-align: right;
-			p{
-				margin: 0;
-			}
 		}
 	}
